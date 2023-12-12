@@ -19,6 +19,7 @@
 
 pass:文章末有关键字，回复可获取打包的整个项目。
 
+
 1.资源文件->添加->资源
 
 ![](image/image_Y7Lei1hLN1.png)
@@ -183,7 +184,7 @@ int main(int argc, char* argv[])
     //在 main() 函数中使用枚举函数 EnumResourceTypes() 枚举所有资源类型
     EnumResourceTypes(NULL,
         (ENUMRESTYPEPROC)EnumTypesFunc,
-        0);                           
+        0);                         
 }
 
 ```
